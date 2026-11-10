@@ -1,20 +1,18 @@
 {
-  "name": "medicaoweb",
-  "version": "0.1.0",
+  "name": "wifi-analyzer",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "seed": "node --env-file=.env.local scripts/seed.js"
   },
   "dependencies": {
-    "next": "16.4.6",
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
-  },
-  "devDependencies": {
-    "eslint": "^9",
-    "eslint-config-next": "16.4.6"
+    "mongodb": "^6.22.0",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.4"
   }
 }
