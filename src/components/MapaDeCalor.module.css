@@ -1,0 +1,36 @@
+.controles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.legenda {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 280px;
+  max-width: 100%;
+}
+
+.escala {
+  height: 10px;
+  border-radius: 5px;
+}
+
+.extremos {
+  display: flex;
+  justify-content: space-between;
+  color: var(--tinta-2);
+  font-size: 12.5px;
+}
+
+.andar + .andar {
+  margin-top: 40px;
+}
+
+.andar h2 {
+  margin-bottom: 14px;
+}

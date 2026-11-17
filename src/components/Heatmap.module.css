@@ -1,0 +1,29 @@
+.moldura {
+  overflow-x: auto;
+  border: 1px solid var(--linha);
+  border-radius: var(--raio-painel);
+  background: #fff;
+}
+
+.interno {
+  position: relative;
+  min-width: 680px;
+  overflow: hidden;
+}
+
+.planta {
+  display: block;
+
+  width: calc(100% + 4px);
+  max-width: none;
+  height: auto;
+  margin: -2px;
+  filter: grayscale(1) contrast(0.92) brightness(1.08);
+}
+
+.camada {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  pointer-events: none;
+}
